@@ -1,0 +1,16 @@
+
+// @import "assets/bootstrap-sass/variables";
+// @import '../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    padding: 2em 8em;
+    background: lightgray;
+    font-family: Lato, sans-serif;
+}
+
+@media screen and  (max-width: 650px) {
+  body{
+    padding: 1em 0em;
+  }
+}

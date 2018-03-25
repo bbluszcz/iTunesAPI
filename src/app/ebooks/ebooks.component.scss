@@ -1,0 +1,77 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex: 1 0 auto;
+  flex-wrap: wrap;
+}
+
+.ebook {
+
+  font-size: 12px;
+  padding: 2em;
+  min-width: 100px;
+  width: 28vw;
+  height: 40vh;
+  overflow: hidden;
+
+  &__header{
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  }
+    &__title{
+      &--text{
+      font-size: 16px;
+      margin:1px 0;
+    }
+  }
+  &__author{
+     &--text{
+      margin:5px 0 0 0;
+      font-weight: 600;
+      font-size: 14px;
+    }
+  }
+
+
+  &__genre{
+      &--text{
+      margin:5px 0 0 0;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  }
+  &__rating{
+      &--text{
+      margin:5px 0 0 0;
+      font-weight: 600;
+      font-size: 13px;
+    }
+  }
+
+  &__image{
+    float: right;
+    padding: 0 2px;
+  }
+  &__description{
+    &--paragraph{
+    font-size: 13px;
+    display: block;
+    height: 150px;
+    overflow: hidden;
+    }
+  }
+
+}
+
+@media screen and  (max-width: 650px) {
+  .ebook {
+      min-width: 80%;
+      &__description{
+        &--paragraph{
+        height: 100px;
+        }
+       }
+  }
+}
