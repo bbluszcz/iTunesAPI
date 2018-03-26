@@ -2,14 +2,11 @@
 
 Welcome to the app demonstrating my use of RESTful API
    
-         The Angular5 SPA displays two different usecases of data from iTunes APi
-         Angular Material was used for styling purposes
-         Flexbox and BEM class naming was used in Ebooks component
-         Table in Songs component can be paginated, filtered and sorted
-         Error handling is provided using Angular ErrorHandler
-         
-         
-         
+   - The Angular5 SPA displays two different usecases of data from iTunes APi
+   - Angular Material was used for styling purposes
+   - Flexbox and BEM class naming was used in Ebooks component
+   - Table in Songs component can be paginated, filtered and sorted
+   - Error handling is provided using Angular ErrorHandler
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
