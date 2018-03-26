@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+# iTunesAPI
 
-You can use the [editor on GitHub](https://github.com/bbluszcz/iTunesAPI/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Welcome to the app demonstrating my use of RESTful API
+   
+         The Angular5 SPA displays two different usecases of data from iTunes APi
+         Angular Material was used for styling purposes
+         Flexbox and BEM class naming was used in Ebooks component
+         Table in Songs component can be paginated, filtered and sorted
+         Error handling is provided using Angular ErrorHandler
+         
+         
+         
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
-### Markdown
+## Development server
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-```markdown
-Syntax highlighted code block
+## Code scaffolding
 
-# Header 1
-## Header 2
-### Header 3
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-- Bulleted
-- List
+## Build
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bbluszcz/iTunesAPI/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
