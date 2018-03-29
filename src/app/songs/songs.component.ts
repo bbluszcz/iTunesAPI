@@ -1,6 +1,5 @@
 // ng
 import { Component, OnInit, ViewChild } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
 // Angular material
 import { MatTableDataSource } from '@angular/material/table';
 import { MatSort } from '@angular/material/sort';
@@ -15,10 +14,9 @@ import { DataService } from './../shared/data.service';
 })
 export class SongsComponent implements OnInit {
 
-  songs: any[];
-  displayedColumns = ['thumbnail', 'artistName', 'trackName', 'collectionName', 'trackPreview'];
-  dataSource: MatTableDataSource<any[]>;
-  userMessage: string;
+  private songs: any[];
+  readonly displayedColumns = ['thumbnail', 'artistName', 'trackName', 'collectionName', 'trackPreview'];
+  private dataSource: MatTableDataSource<any[]>;
 
   @ViewChild(MatSort) sort: MatSort;
   @ViewChild(MatPaginator) paginator: MatPaginator;
@@ -38,9 +36,7 @@ export class SongsComponent implements OnInit {
   }
 
   applyFilter(filterValue: string) {
-    filterValue = filterValue.trim();
-    filterValue = filterValue.toLowerCase();
-    this.dataSource.filter = filterValue;
+    this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
 }

@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 // components
 import { SongsComponent } from './songs/songs.component';
 import { EbooksComponent } from './ebooks/ebooks.component';
 import { HomeComponent } from './home/home.component';
-
 
 const appRoutes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },

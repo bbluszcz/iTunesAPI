@@ -1,4 +1,3 @@
-import { Observable } from "rxjs/observable";
 import { ErrorHandler, Injectable, Injector } from '@angular/core';
 import { DisplayErrorsService } from "./display-errors.service";
 
